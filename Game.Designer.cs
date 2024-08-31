@@ -28,407 +28,412 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.points1 = new System.Windows.Forms.TextBox();
-            this.points2 = new System.Windows.Forms.TextBox();
-            this.points3 = new System.Windows.Forms.TextBox();
-            this.points4 = new System.Windows.Forms.TextBox();
-            this.win1 = new System.Windows.Forms.RadioButton();
-            this.win2 = new System.Windows.Forms.RadioButton();
-            this.win3 = new System.Windows.Forms.RadioButton();
-            this.win4 = new System.Windows.Forms.RadioButton();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label12 = new System.Windows.Forms.Label();
-            this.sum4 = new System.Windows.Forms.Label();
-            this.sum3 = new System.Windows.Forms.Label();
-            this.sum2 = new System.Windows.Forms.Label();
-            this.sum1 = new System.Windows.Forms.Label();
-            this.textBox = new System.Windows.Forms.RichTextBox();
-            this.x21 = new System.Windows.Forms.Button();
-            this.x22 = new System.Windows.Forms.Button();
-            this.x24 = new System.Windows.Forms.Button();
-            this.x23 = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.name4 = new System.Windows.Forms.Label();
-            this.name3 = new System.Windows.Forms.Label();
-            this.name2 = new System.Windows.Forms.Label();
-            this.name1 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.SuspendLayout();
+            button1 = new Button();
+            points1 = new TextBox();
+            points2 = new TextBox();
+            points3 = new TextBox();
+            points4 = new TextBox();
+            win1 = new RadioButton();
+            win2 = new RadioButton();
+            win3 = new RadioButton();
+            win4 = new RadioButton();
+            label5 = new Label();
+            label6 = new Label();
+            panel1 = new Panel();
+            label12 = new Label();
+            sum4 = new Label();
+            sum3 = new Label();
+            sum2 = new Label();
+            sum1 = new Label();
+            textBox = new RichTextBox();
+            x21 = new Button();
+            x22 = new Button();
+            x24 = new Button();
+            x23 = new Button();
+            panel2 = new Panel();
+            panel3 = new Panel();
+            name4 = new Label();
+            name3 = new Label();
+            name2 = new Label();
+            name1 = new Label();
+            label7 = new Label();
+            pictureBox2 = new PictureBox();
+            panel1.SuspendLayout();
+            panel2.SuspendLayout();
+            panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(678, 52);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(45, 46);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Ok";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            button1.Location = new Point(756, 70);
+            button1.Margin = new Padding(4, 6, 4, 6);
+            button1.Name = "button1";
+            button1.Size = new Size(50, 38);
+            button1.TabIndex = 0;
+            button1.Text = "Ok";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // points1
             // 
-            this.points1.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.points1.Location = new System.Drawing.Point(94, 14);
-            this.points1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.points1.Name = "points1";
-            this.points1.Size = new System.Drawing.Size(103, 26);
-            this.points1.TabIndex = 1;
+            points1.BackColor = SystemColors.InactiveCaption;
+            points1.Location = new Point(104, 18);
+            points1.Margin = new Padding(4, 6, 4, 6);
+            points1.Name = "points1";
+            points1.Size = new Size(114, 31);
+            points1.TabIndex = 1;
             // 
             // points2
             // 
-            this.points2.Location = new System.Drawing.Point(254, 14);
-            this.points2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.points2.Name = "points2";
-            this.points2.Size = new System.Drawing.Size(103, 26);
-            this.points2.TabIndex = 2;
+            points2.Location = new Point(282, 18);
+            points2.Margin = new Padding(4, 6, 4, 6);
+            points2.Name = "points2";
+            points2.Size = new Size(114, 31);
+            points2.TabIndex = 2;
             // 
             // points3
             // 
-            this.points3.Location = new System.Drawing.Point(412, 14);
-            this.points3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.points3.Name = "points3";
-            this.points3.Size = new System.Drawing.Size(103, 26);
-            this.points3.TabIndex = 3;
+            points3.Location = new Point(458, 18);
+            points3.Margin = new Padding(4, 6, 4, 6);
+            points3.Name = "points3";
+            points3.Size = new Size(114, 31);
+            points3.TabIndex = 3;
             // 
             // points4
             // 
-            this.points4.Location = new System.Drawing.Point(572, 14);
-            this.points4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.points4.Name = "points4";
-            this.points4.Size = new System.Drawing.Size(103, 26);
-            this.points4.TabIndex = 4;
+            points4.Location = new Point(636, 18);
+            points4.Margin = new Padding(4, 6, 4, 6);
+            points4.Name = "points4";
+            points4.Size = new Size(114, 31);
+            points4.TabIndex = 4;
             // 
             // win1
             // 
-            this.win1.AutoSize = true;
-            this.win1.Location = new System.Drawing.Point(99, 58);
-            this.win1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.win1.Name = "win1";
-            this.win1.Size = new System.Drawing.Size(21, 20);
-            this.win1.TabIndex = 5;
-            this.win1.TabStop = true;
-            this.win1.UseVisualStyleBackColor = true;
+            win1.AutoSize = true;
+            win1.Location = new Point(109, 77);
+            win1.Margin = new Padding(4, 6, 4, 6);
+            win1.Name = "win1";
+            win1.Size = new Size(21, 20);
+            win1.TabIndex = 5;
+            win1.TabStop = true;
+            win1.UseVisualStyleBackColor = true;
             // 
             // win2
             // 
-            this.win2.AutoSize = true;
-            this.win2.Location = new System.Drawing.Point(256, 58);
-            this.win2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.win2.Name = "win2";
-            this.win2.Size = new System.Drawing.Size(21, 20);
-            this.win2.TabIndex = 6;
-            this.win2.TabStop = true;
-            this.win2.UseVisualStyleBackColor = true;
+            win2.AutoSize = true;
+            win2.Location = new Point(284, 77);
+            win2.Margin = new Padding(4, 6, 4, 6);
+            win2.Name = "win2";
+            win2.Size = new Size(21, 20);
+            win2.TabIndex = 6;
+            win2.TabStop = true;
+            win2.UseVisualStyleBackColor = true;
             // 
             // win3
             // 
-            this.win3.AutoSize = true;
-            this.win3.Location = new System.Drawing.Point(418, 58);
-            this.win3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.win3.Name = "win3";
-            this.win3.Size = new System.Drawing.Size(21, 20);
-            this.win3.TabIndex = 7;
-            this.win3.TabStop = true;
-            this.win3.UseVisualStyleBackColor = true;
+            win3.AutoSize = true;
+            win3.Location = new Point(464, 77);
+            win3.Margin = new Padding(4, 6, 4, 6);
+            win3.Name = "win3";
+            win3.Size = new Size(21, 20);
+            win3.TabIndex = 7;
+            win3.TabStop = true;
+            win3.UseVisualStyleBackColor = true;
             // 
             // win4
             // 
-            this.win4.AutoSize = true;
-            this.win4.Location = new System.Drawing.Point(578, 58);
-            this.win4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.win4.Name = "win4";
-            this.win4.Size = new System.Drawing.Size(21, 20);
-            this.win4.TabIndex = 8;
-            this.win4.TabStop = true;
-            this.win4.UseVisualStyleBackColor = true;
+            win4.AutoSize = true;
+            win4.Location = new Point(642, 77);
+            win4.Margin = new Padding(4, 6, 4, 6);
+            win4.Name = "win4";
+            win4.Size = new Size(21, 20);
+            win4.TabIndex = 8;
+            win4.TabStop = true;
+            win4.UseVisualStyleBackColor = true;
             // 
             // label5
             // 
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(6, 54);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(90, 28);
-            this.label5.TabIndex = 13;
-            this.label5.Text = "Winner:";
+            label5.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label5.Location = new Point(7, 72);
+            label5.Margin = new Padding(4, 0, 4, 0);
+            label5.Name = "label5";
+            label5.Size = new Size(100, 35);
+            label5.TabIndex = 13;
+            label5.Text = "Winner:";
             // 
             // label6
             // 
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(6, 12);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(87, 28);
-            this.label6.TabIndex = 14;
-            this.label6.Text = "Points:";
+            label6.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label6.Location = new Point(7, 15);
+            label6.Margin = new Padding(4, 0, 4, 0);
+            label6.Name = "label6";
+            label6.Size = new Size(97, 35);
+            label6.TabIndex = 14;
+            label6.Text = "Points:";
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.label12);
-            this.panel1.Controls.Add(this.sum4);
-            this.panel1.Controls.Add(this.sum3);
-            this.panel1.Controls.Add(this.sum2);
-            this.panel1.Controls.Add(this.sum1);
-            this.panel1.Location = new System.Drawing.Point(18, 172);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(743, 45);
-            this.panel1.TabIndex = 21;
+            panel1.BackColor = Color.FromArgb(64, 0, 64);
+            panel1.BorderStyle = BorderStyle.FixedSingle;
+            panel1.Controls.Add(label12);
+            panel1.Controls.Add(sum4);
+            panel1.Controls.Add(sum3);
+            panel1.Controls.Add(sum2);
+            panel1.Controls.Add(sum1);
+            panel1.Location = new Point(20, 215);
+            panel1.Margin = new Padding(4, 6, 4, 6);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(825, 56);
+            panel1.TabIndex = 21;
             // 
             // label12
             // 
-            this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(3, 9);
-            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(90, 28);
-            this.label12.TabIndex = 25;
-            this.label12.Text = "Sum:";
+            label12.BackColor = Color.Transparent;
+            label12.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label12.ForeColor = Color.White;
+            label12.Location = new Point(3, 11);
+            label12.Margin = new Padding(4, 0, 4, 0);
+            label12.Name = "label12";
+            label12.Size = new Size(100, 35);
+            label12.TabIndex = 25;
+            label12.Text = "Sum:";
             // 
             // sum4
             // 
-            this.sum4.BackColor = System.Drawing.Color.Transparent;
-            this.sum4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sum4.Location = new System.Drawing.Point(573, 9);
-            this.sum4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.sum4.Name = "sum4";
-            this.sum4.Size = new System.Drawing.Size(150, 25);
-            this.sum4.TabIndex = 24;
-            this.sum4.Text = "0";
+            sum4.BackColor = Color.Transparent;
+            sum4.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            sum4.ForeColor = Color.White;
+            sum4.Location = new Point(637, 11);
+            sum4.Margin = new Padding(4, 0, 4, 0);
+            sum4.Name = "sum4";
+            sum4.Size = new Size(167, 31);
+            sum4.TabIndex = 24;
+            sum4.Text = "0";
             // 
             // sum3
             // 
-            this.sum3.BackColor = System.Drawing.Color.Transparent;
-            this.sum3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sum3.Location = new System.Drawing.Point(410, 9);
-            this.sum3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.sum3.Name = "sum3";
-            this.sum3.Size = new System.Drawing.Size(150, 25);
-            this.sum3.TabIndex = 23;
-            this.sum3.Text = "0";
+            sum3.BackColor = Color.Transparent;
+            sum3.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            sum3.ForeColor = Color.White;
+            sum3.Location = new Point(456, 11);
+            sum3.Margin = new Padding(4, 0, 4, 0);
+            sum3.Name = "sum3";
+            sum3.Size = new Size(167, 31);
+            sum3.TabIndex = 23;
+            sum3.Text = "0";
             // 
             // sum2
             // 
-            this.sum2.BackColor = System.Drawing.Color.Transparent;
-            this.sum2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sum2.Location = new System.Drawing.Point(250, 9);
-            this.sum2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.sum2.Name = "sum2";
-            this.sum2.Size = new System.Drawing.Size(150, 25);
-            this.sum2.TabIndex = 22;
-            this.sum2.Text = "0";
+            sum2.BackColor = Color.Transparent;
+            sum2.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            sum2.ForeColor = Color.White;
+            sum2.Location = new Point(278, 11);
+            sum2.Margin = new Padding(4, 0, 4, 0);
+            sum2.Name = "sum2";
+            sum2.Size = new Size(167, 31);
+            sum2.TabIndex = 22;
+            sum2.Text = "0";
             // 
             // sum1
             // 
-            this.sum1.BackColor = System.Drawing.Color.Transparent;
-            this.sum1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sum1.Location = new System.Drawing.Point(96, 9);
-            this.sum1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.sum1.Name = "sum1";
-            this.sum1.Size = new System.Drawing.Size(150, 25);
-            this.sum1.TabIndex = 21;
-            this.sum1.Text = "0";
+            sum1.BackColor = Color.Transparent;
+            sum1.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            sum1.ForeColor = Color.White;
+            sum1.Location = new Point(107, 11);
+            sum1.Margin = new Padding(4, 0, 4, 0);
+            sum1.Name = "sum1";
+            sum1.Size = new Size(167, 31);
+            sum1.TabIndex = 21;
+            sum1.Text = "0";
             // 
             // textBox
             // 
-            this.textBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.textBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox.Location = new System.Drawing.Point(18, 228);
-            this.textBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox.Name = "textBox";
-            this.textBox.Size = new System.Drawing.Size(742, 626);
-            this.textBox.TabIndex = 22;
-            this.textBox.Text = "";
+            textBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            textBox.BackColor = Color.Black;
+            textBox.BorderStyle = BorderStyle.None;
+            textBox.Font = new Font("Microsoft Sans Serif", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox.ForeColor = Color.White;
+            textBox.Location = new Point(20, 285);
+            textBox.Margin = new Padding(4, 6, 4, 6);
+            textBox.Name = "textBox";
+            textBox.Size = new Size(824, 782);
+            textBox.TabIndex = 22;
+            textBox.Text = "";
             // 
             // x21
             // 
-            this.x21.Location = new System.Drawing.Point(202, 12);
-            this.x21.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.x21.Name = "x21";
-            this.x21.Size = new System.Drawing.Size(42, 32);
-            this.x21.TabIndex = 23;
-            this.x21.Text = "X2";
-            this.x21.UseVisualStyleBackColor = true;
-            this.x21.Click += new System.EventHandler(this.button2_Click);
+            x21.Location = new Point(224, 15);
+            x21.Margin = new Padding(4, 6, 4, 6);
+            x21.Name = "x21";
+            x21.Size = new Size(47, 40);
+            x21.TabIndex = 23;
+            x21.Text = "X2";
+            x21.UseVisualStyleBackColor = true;
+            x21.Click += button2_Click;
             // 
             // x22
             // 
-            this.x22.Location = new System.Drawing.Point(362, 12);
-            this.x22.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.x22.Name = "x22";
-            this.x22.Size = new System.Drawing.Size(42, 32);
-            this.x22.TabIndex = 24;
-            this.x22.Text = "X2";
-            this.x22.UseVisualStyleBackColor = true;
-            this.x22.Click += new System.EventHandler(this.button3_Click);
+            x22.Location = new Point(402, 15);
+            x22.Margin = new Padding(4, 6, 4, 6);
+            x22.Name = "x22";
+            x22.Size = new Size(47, 40);
+            x22.TabIndex = 24;
+            x22.Text = "X2";
+            x22.UseVisualStyleBackColor = true;
+            x22.Click += button3_Click;
             // 
             // x24
             // 
-            this.x24.Location = new System.Drawing.Point(680, 12);
-            this.x24.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.x24.Name = "x24";
-            this.x24.Size = new System.Drawing.Size(42, 32);
-            this.x24.TabIndex = 26;
-            this.x24.Text = "X2";
-            this.x24.UseVisualStyleBackColor = true;
+            x24.Location = new Point(756, 15);
+            x24.Margin = new Padding(4, 6, 4, 6);
+            x24.Name = "x24";
+            x24.Size = new Size(47, 40);
+            x24.TabIndex = 26;
+            x24.Text = "X2";
+            x24.UseVisualStyleBackColor = true;
             // 
             // x23
             // 
-            this.x23.Location = new System.Drawing.Point(520, 12);
-            this.x23.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.x23.Name = "x23";
-            this.x23.Size = new System.Drawing.Size(42, 32);
-            this.x23.TabIndex = 25;
-            this.x23.Text = "X2";
-            this.x23.UseVisualStyleBackColor = true;
-            this.x23.Click += new System.EventHandler(this.button5_Click);
+            x23.Location = new Point(578, 15);
+            x23.Margin = new Padding(4, 6, 4, 6);
+            x23.Name = "x23";
+            x23.Size = new Size(47, 40);
+            x23.TabIndex = 25;
+            x23.Text = "X2";
+            x23.UseVisualStyleBackColor = true;
+            x23.Click += button5_Click;
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.x24);
-            this.panel2.Controls.Add(this.button1);
-            this.panel2.Controls.Add(this.x23);
-            this.panel2.Controls.Add(this.x22);
-            this.panel2.Controls.Add(this.x21);
-            this.panel2.Controls.Add(this.label6);
-            this.panel2.Controls.Add(this.label5);
-            this.panel2.Controls.Add(this.win4);
-            this.panel2.Controls.Add(this.win3);
-            this.panel2.Controls.Add(this.win2);
-            this.panel2.Controls.Add(this.win1);
-            this.panel2.Controls.Add(this.points4);
-            this.panel2.Controls.Add(this.points3);
-            this.panel2.Controls.Add(this.points2);
-            this.panel2.Controls.Add(this.points1);
-            this.panel2.Location = new System.Drawing.Point(18, 60);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(743, 102);
-            this.panel2.TabIndex = 27;
+            panel2.BackColor = Color.Silver;
+            panel2.BorderStyle = BorderStyle.FixedSingle;
+            panel2.Controls.Add(x24);
+            panel2.Controls.Add(button1);
+            panel2.Controls.Add(x23);
+            panel2.Controls.Add(x22);
+            panel2.Controls.Add(x21);
+            panel2.Controls.Add(label6);
+            panel2.Controls.Add(label5);
+            panel2.Controls.Add(win4);
+            panel2.Controls.Add(win3);
+            panel2.Controls.Add(win2);
+            panel2.Controls.Add(win1);
+            panel2.Controls.Add(points4);
+            panel2.Controls.Add(points3);
+            panel2.Controls.Add(points2);
+            panel2.Controls.Add(points1);
+            panel2.Location = new Point(20, 75);
+            panel2.Margin = new Padding(4, 6, 4, 6);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(825, 127);
+            panel2.TabIndex = 27;
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.White;
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.name4);
-            this.panel3.Controls.Add(this.name3);
-            this.panel3.Controls.Add(this.name2);
-            this.panel3.Controls.Add(this.name1);
-            this.panel3.Controls.Add(this.label7);
-            this.panel3.Location = new System.Drawing.Point(18, 9);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(743, 40);
-            this.panel3.TabIndex = 28;
+            panel3.BackColor = Color.Black;
+            panel3.BorderStyle = BorderStyle.FixedSingle;
+            panel3.Controls.Add(name4);
+            panel3.Controls.Add(name3);
+            panel3.Controls.Add(name2);
+            panel3.Controls.Add(name1);
+            panel3.Controls.Add(label7);
+            panel3.Location = new Point(20, 11);
+            panel3.Margin = new Padding(4, 6, 4, 6);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(825, 50);
+            panel3.TabIndex = 28;
             // 
             // name4
             // 
-            this.name4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.name4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.name4.Location = new System.Drawing.Point(570, 6);
-            this.name4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.name4.Name = "name4";
-            this.name4.Size = new System.Drawing.Size(150, 25);
-            this.name4.TabIndex = 24;
-            this.name4.Text = "NN";
+            name4.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            name4.ForeColor = Color.FromArgb(192, 192, 0);
+            name4.Location = new Point(633, 11);
+            name4.Margin = new Padding(4, 0, 4, 0);
+            name4.Name = "name4";
+            name4.Size = new Size(167, 31);
+            name4.TabIndex = 24;
+            name4.Text = "NN";
             // 
             // name3
             // 
-            this.name3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.name3.ForeColor = System.Drawing.Color.Blue;
-            this.name3.Location = new System.Drawing.Point(406, 6);
-            this.name3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.name3.Name = "name3";
-            this.name3.Size = new System.Drawing.Size(150, 25);
-            this.name3.TabIndex = 23;
-            this.name3.Text = "NN";
+            name3.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            name3.ForeColor = Color.Blue;
+            name3.Location = new Point(451, 11);
+            name3.Margin = new Padding(4, 0, 4, 0);
+            name3.Name = "name3";
+            name3.Size = new Size(167, 31);
+            name3.TabIndex = 23;
+            name3.Text = "NN";
             // 
             // name2
             // 
-            this.name2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.name2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.name2.Location = new System.Drawing.Point(248, 6);
-            this.name2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.name2.Name = "name2";
-            this.name2.Size = new System.Drawing.Size(150, 25);
-            this.name2.TabIndex = 22;
-            this.name2.Text = "NN";
+            name2.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            name2.ForeColor = Color.FromArgb(0, 192, 0);
+            name2.Location = new Point(276, 11);
+            name2.Margin = new Padding(4, 0, 4, 0);
+            name2.Name = "name2";
+            name2.Size = new Size(167, 31);
+            name2.TabIndex = 22;
+            name2.Text = "NN";
             // 
             // name1
             // 
-            this.name1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.name1.ForeColor = System.Drawing.Color.Red;
-            this.name1.Location = new System.Drawing.Point(93, 6);
-            this.name1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.name1.Name = "name1";
-            this.name1.Size = new System.Drawing.Size(150, 25);
-            this.name1.TabIndex = 21;
-            this.name1.Text = "NN";
+            name1.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            name1.ForeColor = Color.Red;
+            name1.Location = new Point(103, 11);
+            name1.Margin = new Padding(4, 0, 4, 0);
+            name1.Name = "name1";
+            name1.Size = new Size(167, 31);
+            name1.TabIndex = 21;
+            name1.Text = "NN";
             // 
             // label7
             // 
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(4, 6);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(90, 28);
-            this.label7.TabIndex = 20;
-            this.label7.Text = "Player:";
+            label7.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label7.ForeColor = Color.White;
+            label7.Location = new Point(4, 10);
+            label7.Margin = new Padding(4, 0, 4, 0);
+            label7.Name = "label7";
+            label7.Size = new Size(100, 35);
+            label7.TabIndex = 20;
+            label7.Text = "Player:";
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox2.Location = new System.Drawing.Point(771, 9);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(1338, 845);
-            this.pictureBox2.TabIndex = 30;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox2_Paint);
+            pictureBox2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            pictureBox2.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox2.Location = new Point(857, 11);
+            pictureBox2.Margin = new Padding(4, 6, 4, 6);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(1486, 1056);
+            pictureBox2.TabIndex = 30;
+            pictureBox2.TabStop = false;
+            pictureBox2.Paint += pictureBox2_Paint;
             // 
             // Mahjongg
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(2128, 874);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.textBox);
-            this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "Mahjongg";
-            this.Text = "Mahjongg";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Game_FormClosed);
-            this.Load += new System.EventHandler(this.Mahjongg_Load);
-            this.ClientSizeChanged += new System.EventHandler(this.Mahjongg_ClientSizeChanged);
-            this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.DimGray;
+            ClientSize = new Size(2364, 1092);
+            Controls.Add(pictureBox2);
+            Controls.Add(panel3);
+            Controls.Add(panel2);
+            Controls.Add(textBox);
+            Controls.Add(panel1);
+            Margin = new Padding(4, 6, 4, 6);
+            Name = "Mahjongg";
+            Text = "Mahjongg";
+            FormClosed += Game_FormClosed;
+            Load += Mahjongg_Load;
+            ClientSizeChanged += Mahjongg_ClientSizeChanged;
+            panel1.ResumeLayout(false);
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
+            panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ResumeLayout(false);
         }
 
         #endregion

@@ -149,6 +149,30 @@ namespace Mahjongg
             textBox.ScrollToCaret();
 
             pictureBox2.Invalidate();
+
+            SaveGame();
+        }
+
+        private void SaveGame()
+        {
+            string s = "";
+            s += String.Join(";", players) + "\r\n";
+            s += eastPlayer.ToString();
+
+            foreach (var game in games)
+            {
+                s += String.Join(";", game) + "\r\n";
+            }
+
+            FileStream fs = new FileStream(DateTime.Now.ToString().Replace(" ", "_").Replace(":", "-") + "_autosave.dat", FileMode.Create, FileAccess.Write);
+
+            using (StreamWriter sw = new StreamWriter(fs))
+            {
+                sw.Write(s);
+            }
+            
+
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -203,7 +227,7 @@ namespace Mahjongg
         {
             Graphics g = e.Graphics;
 
-            g.Clear(Color.White);
+            g.Clear(Color.Black);
 
             int max = int.MinValue;
             int min = int.MaxValue;
@@ -241,7 +265,7 @@ namespace Mahjongg
                     pnts.Add(new Point(border + game, border + (int)h - score));
                 }
 
-                Color c = Color.Black;
+                Color c = Color.White;
                 if (p == 0)
                     c = name1.ForeColor;
                 if (p == 1)
@@ -265,7 +289,7 @@ namespace Mahjongg
 
         private void Mahjongg_ClientSizeChanged(object sender, EventArgs e)
         {
-            pictureBox2.Refresh();
+            pictureBox2.Invalidate();
         }
     }
 
